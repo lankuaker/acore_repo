@@ -1,0 +1,32 @@
+Using built-in specs.
+COLLECT_GCC=c:\arm\launchpad\bin\arm-none-eabi-gcc.exe
+Target: arm-none-eabi
+Configured with: /home/build/work/GCC-4-9-build/src/gcc/configure --build=i686-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/home/build/work/GCC-4-9-build/install-mingw --libexecdir=/home/build/work/GCC-4-9-build/install-mingw/lib --infodir=/home/build/work/GCC-4-9-build/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/home/build/work/GCC-4-9-build/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/home/build/work/GCC-4-9-build/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/home/build/work/GCC-4-9-build/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/home/build/work/GCC-4-9-build/install-mingw/arm-none-eabi --with-libiconv-prefix=/home/build/work/GCC-4-9-build/build-mingw/host-libs/usr --with-gmp=/home/build/work/GCC-4-9-build/build-mingw/host-libs/usr --with-mpfr=/home/build/work/GCC-4-9-build/build-mingw/host-libs/usr --with-mpc=/home/build/work/GCC-4-9-build/build-mingw/host-libs/usr --with-isl=/home/build/work/GCC-4-9-build/build-mingw/host-libs/usr --with-cloog=/home/build/work/GCC-4-9-build/build-mingw/host-libs/usr --with-libelf=/home/build/work/GCC-4-9-build/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for ARM Embedded Processors' --with-multilib-list=armv6-m,armv7-m,armv7e-m,cortex-m7,armv7-r
+Thread model: single
+gcc version 4.9.3 20150303 (release) [ARM/embedded-4_9-branch revision 221220] (GNU Tools for ARM Embedded Processors) 
+COLLECT_GCC_OPTIONS='-v' '-c'
+ c:/arm/launchpad/bin/../lib/gcc/arm-none-eabi/4.9.3/cc1.exe -quiet -v -iprefix c:\arm\launchpad\bin\../lib/gcc/arm-none-eabi/4.9.3/ -isysroot c:\arm\launchpad\bin\../arm-none-eabi -D__USES_INITFINI__ gcc_path_probe.c -quiet -dumpbase gcc_path_probe.c -auxbase gcc_path_probe -version -o C:\Users\liberdaa\AppData\Local\Temp\ccMlEbNa.s
+GNU C (GNU Tools for ARM Embedded Processors) version 4.9.3 20150303 (release) [ARM/embedded-4_9-branch revision 221220] (arm-none-eabi)
+	compiled by GNU C version 4.7.4, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "c:/arm/launchpad/lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/include"
+ignoring nonexistent directory "c:\arm\launchpad\bin\../arm-none-eabi/home/build/work/GCC-4-9-build/install-mingw/lib/gcc/arm-none-eabi/4.9.3/../../../../include"
+ignoring duplicate directory "c:/arm/launchpad/lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/include-fixed"
+ignoring duplicate directory "c:/arm/launchpad/lib/gcc/../../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "c:\arm\launchpad\bin\../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\arm\launchpad\bin\../lib/gcc/arm-none-eabi/4.9.3/include
+ c:\arm\launchpad\bin\../lib/gcc/arm-none-eabi/4.9.3/include-fixed
+ c:\arm\launchpad\bin\../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include
+End of search list.
+GNU C (GNU Tools for ARM Embedded Processors) version 4.9.3 20150303 (release) [ARM/embedded-4_9-branch revision 221220] (arm-none-eabi)
+	compiled by GNU C version 4.7.4, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 9ecbdfb742d32865a03097482a792b7b
+COLLECT_GCC_OPTIONS='-v' '-c'
+ c:/arm/launchpad/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/bin/as.exe -v -meabi=5 -o gcc_path_probe.o C:\Users\liberdaa\AppData\Local\Temp\ccMlEbNa.s
+GNU assembler version 2.24.0 (arm-none-eabi) using BFD version (GNU Tools for ARM Embedded Processors) 2.24.0.20150304
+COMPILER_PATH=c:/arm/launchpad/bin/../lib/gcc/arm-none-eabi/4.9.3/;c:/arm/launchpad/bin/../lib/gcc/;c:/arm/launchpad/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=c:/arm/launchpad/bin/../lib/gcc/arm-none-eabi/4.9.3/;c:/arm/launchpad/bin/../lib/gcc/;c:/arm/launchpad/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/;c:/arm/launchpad/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-c'
